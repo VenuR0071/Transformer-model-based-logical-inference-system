@@ -1,0 +1,1 @@
+streamlit==1.29.0 torch==2.0.1 bert-extractive-summarizer==0.10.1 pke==2.0.0 nltk==3.8.1 flashtext==2.7 pywsd==1.2.5 requests==2.31.0 openai==1.3.7
