@@ -13,6 +13,8 @@ Both applications are designed to be user-friendly and extensible, suitable for 
 
 ## Tech Stack
 
+-**Only Works on Linux Operating System (nltk dependencies)
+
 ### Frontend
 - **Streamlit**: A Python framework for building interactive web applications with minimal effort.
 - **HTML/CSS (implicit)**: Rendered by Streamlit for UI components.
@@ -172,9 +174,7 @@ project/
 4. Push to the branch (`git push origin feature/your-feature`).
 5. Open a Pull Request.
 
-## License
 
-MIT License. See [LICENSE](LICENSE) for details.
 
 ## Contact
 
