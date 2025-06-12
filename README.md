@@ -11,7 +11,10 @@ Project Goals
 MCQ Generator: Automatically create MCQs from text documents by summarizing content, extracting keywords, and generating distractors using WordNet and ConceptNet. Users can select answers and save modified questions.
 Intelligent Assistant: Provide a conversational interface for users to interact with a local AI model, offering well-reasoned and helpful responses to queries.
 
-Tech Stack
+
+Tech Stack:
+Only works on Linux operating System (nltk dependencies)
+
 Frontend
 
 Streamlit: A Python framework for building interactive web applications with minimal effort.
@@ -100,18 +103,6 @@ Run the Streamlit app:streamlit run app.py
 Open your browser at http://localhost:8501.
 Enter queries in the text input to interact with the assistant.
 
-Project Structure
-project/
-├── mcq_generator/
-│   ├── app.py              # Main Streamlit app for MCQ generator
-│   ├── file_utils.py       # File reading utilities
-│   ├── mcq_generator.py    # MCQ generation logic
-│   ├── ui_components.py    # Streamlit UI components
-├── chatbot/
-│   ├── app.py              # Main Streamlit app for chatbot
-│   ├── assistant.py        # Assistant response logic
-├── requirements.txt        # Python dependencies
-├── README.md               # Project documentation
 
 Features
 MCQ Generator
